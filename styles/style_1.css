@@ -1,0 +1,53 @@
+body {
+    font-family: arial;
+    background-color: cornflowerblue;
+    margin: 50px;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+  
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+table thead th:nth-child(even) {
+    color: rgb(1, 134, 112);
+    background-color: rgb(0, 52, 68);
+}
+
+table thead th:nth-child(odd) {
+    color: rgb(1, 10, 134);
+    background-color: rgb(17, 107, 29);
+}
+
+table tbody tr:nth-child(even) {
+    color: black;
+    background-color: #dddddd;
+}
+
+table tbody tr:nth-child(odd) {
+    color: white;
+    background-color: black;
+}
+
+table tbody td:nth-child(1) {
+    color: rgb(11, 46, 247);
+    background-color: rgb(8, 240, 66);
+}
+
+table tbody td:nth-child(2) {
+    color: rgb(238, 14, 14);
+    background-color: rgb(217, 9, 224);
+}
+
+.footer {
+    text-align: center;
+    font-size: 24px;
+    padding: 10px 0;
+}
